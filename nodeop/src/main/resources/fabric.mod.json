@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "nodeop",
+  "version": "${version}",
+  "name": "nodeop",
+  "description": "Adds /nodeop: duplicates the item in your hand. No OP permission needed and no chat feedback.",
+  "authors": ["nodeop contributors"],
+  "contact": {
+    "homepage": "https://github.com/",
+    "sources": "https://github.com/",
+    "issues": "https://github.com/"
+  },
+  "license": "MIT",
+  "icon": "assets/nodeop/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.nodeop.NodeOp"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
